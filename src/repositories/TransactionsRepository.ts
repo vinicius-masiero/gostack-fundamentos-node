@@ -36,6 +36,11 @@ class TransactionsRepository {
           default:
             break;
         }
+        // if (transaction.type === 'income') {
+        //   accumulator.income += transaction.value;
+        // } else if (transaction.type === 'outcome') {
+        //   accumulator.outcome += transaction.value;
+        // }
         return accumulator;
       },
       {
